@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdatePassActivity"></activity>
+        <activity android:name=".Albums"></activity>
+        <activity android:name=".AddAlbumActivity" />
+        <activity android:name=".UpdatePassActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ForgotPassActivity" />
         <activity android:name=".LoginActivity" />

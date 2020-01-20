@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D7000000"
     tools:context=".ForgotPassActivity">
 
     <Button
@@ -11,7 +12,7 @@
         style="@android:style/Widget.Button"
         android:layout_width="263dp"
         android:layout_height="46dp"
-        android:background="#03A9F4"
+        android:background="@drawable/custom_button"
         android:text="Exit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,16 +35,21 @@
             android:id="@+id/inputEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
+            android:foregroundTint="#00FFFFFF"
             android:hint="Email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#9EFFFFFF" />
 
         <Button
             android:id="@+id/resetPass"
             style="@android:style/Widget.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#03A9F4"
+            android:background="@drawable/custom_button"
             android:text="Reset Password" />
 
     </LinearLayout>
